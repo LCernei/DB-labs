@@ -17,7 +17,6 @@ from studenti
 where Nume_Student like '%u'
 ```
 
-
 __Output:__  
 ![5](/lab4/1.PNG)
 
@@ -31,7 +30,6 @@ from studenti left join studenti_reusita
 on studenti.Id_Student = studenti_reusita.Id_Student
 group by studenti.Id_Student, Nume_Student, Prenume_Student
 ```
-
 
 __Output:__
 There are the first 46 rows out of 75. The others have value 0 in the 3rd column, but did not fit on the screen.
@@ -53,6 +51,6 @@ on nrOfStudentsPerGroup.Id_Grupa = grupe.Id_Grupa
 where nr > 24
   ```
 
-
 __Output:__
+
 ![25](/lab4/3.PNG)
