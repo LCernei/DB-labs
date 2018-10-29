@@ -19,7 +19,7 @@ where Nume_Student like '%u'
 
 __Output:__  
 
-![5](1.png)
+![5](/lab4/1.png)
 
 21. How many marks does each student have? Display their names and surnames.
 
@@ -33,7 +33,7 @@ group by studenti.Id_Student, Nume_Student, Prenume_Student
 ```
 
 __Output:__
-![21](1.png)
+![21](/lab4/2.png)
 
 
 25. In which study group **_(Cod_ Grupa)_** there are more than 24 students?
@@ -52,4 +52,4 @@ where nr > 24
   ```
 
 __Output:__
-![25](1.png)
+![25](/lab4/3.png)
