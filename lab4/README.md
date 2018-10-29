@@ -17,8 +17,8 @@ from studenti
 where Nume_Student like '%u'
 ```
 
-__Output:__  
 
+__Output:__  
 ![5](/lab4/1.PNG)
 
 21. How many marks does each student have? Display their names and surnames.
@@ -32,7 +32,9 @@ on studenti.Id_Student = studenti_reusita.Id_Student
 group by studenti.Id_Student, Nume_Student, Prenume_Student
 ```
 
+
 __Output:__
+There are the first 46 rows out of 75. The others have value 0 in the 3rd column, but did not fit on the screen.
 ![21](/lab4/2.PNG)
 
 
@@ -50,6 +52,7 @@ inner join grupe
 on nrOfStudentsPerGroup.Id_Grupa = grupe.Id_Grupa
 where nr > 24
   ```
+
 
 __Output:__
 ![25](/lab4/3.PNG)
