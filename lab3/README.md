@@ -33,4 +33,4 @@
 
 ![table](/lab3/4.PNG)
 
-The backup file: ![db](/lab3/universitatea.bak)
+The backup file: [db](/lab3/universitatea.bak)
