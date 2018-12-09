@@ -116,4 +116,4 @@ on nrOfStudentsPerGroup.Id_Grupa = grupe.Id_Grupa
 where nr > 24
   ```
  __Result:__
-![out](/lab7/6.PNG)
+![out](/lab7/8.PNG)
