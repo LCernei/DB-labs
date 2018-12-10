@@ -193,7 +193,7 @@ return
 go
 
   ```
-    ![a][/lab9/6.PNG]
+    ![a](/lab9/6.PNG)
   
 7. Create a function that would compute the age of a student:
 
@@ -210,7 +210,7 @@ END
 GO
 SELECT dbo.getAge('11.11.1997')
   ```
-  ![a][/lab9/7.PNG]
+  ![a](/lab9/7.PNG)
 8. Create a function that would return a student's data regarding his marks:
 
 
@@ -232,7 +232,7 @@ GO
 
 SELECT * FROM studentData('Dan David')
   ```
-  ![a][/lab9/8.PNG]
+  ![a](/lab9/8.PNG)
 
 9. Create a function that would find the best or the worst student in a group, depending on the value of the input variable __is_good__ which can be either 'sarguincios' or 'slab'. The function should return a table:
 
@@ -265,4 +265,4 @@ SELECT * FROM getWorstBestSt('CIB171', 'slab')
 
   ```
   
-    ![a][/lab9/9.PNG]
+    ![a](/lab9/9.PNG)
