@@ -120,4 +120,4 @@ SELECT DISTINCT * FROM graph ORDER BY Generation
   
    __Output:__
   ![task](/lab8/6.PNG)
-  ![task](/lab8/61.PNG)
+  ![task](/lab8/61.png)
