@@ -167,8 +167,7 @@ EXECUTE raiseTop3for @disciplina = 'Cercetari operationale'
 6. Create functions based on the 4th lab:
 
   __SQL Querry:__
-
-  ```sql
+```sql
 DROP FUNCTION IF EXISTS func61 
 GO 
 CREATE FUNCTION func61 (@pattern varchar(10)) 
@@ -191,8 +190,8 @@ return
 	on studenti.Id_Student = studenti_reusita.Id_Student
 	group by studenti.Id_Student, Nume_Student, Prenume_Student
 go
-
-  ```
+``` 
+_
     ![a](/lab9/6.PNG)
   
 7. Create a function that would compute the age of a student:
