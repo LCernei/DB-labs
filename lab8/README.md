@@ -19,6 +19,7 @@ CREATE VIEW view1 AS
 GO
 SELECT * FROM view1 
   ```
+  __View Designer:__
   ![task](/lab8/1.PNG)
 
 
@@ -45,7 +46,7 @@ GO
   __SQL Querry:__
 
   ```sql
-  ALTER VIEW view1
+ALTER VIEW view1
 WITH SCHEMABINDING
 AS
   SELECT Id_Student, Nume_Student, Prenume_Student
@@ -68,17 +69,17 @@ ALTER TABLE studenti.studenti DROP COLUMN Prenume_Student
   ```sql
 WITH cte1 AS (
 	SELECT Id_Student, Nume_Student, Prenume_Student
-  FROM studenti.studenti
-  WHERE Nume_Student LIKE '%u'
+	FROM studenti.studenti
+  	WHERE Nume_Student LIKE '%u'
   )
 SELECT * FROM cte1;
 
 WITH cte2 AS (
-SELECT Nume_Student, Prenume_Student, count(studenti_reusita.Id_Student) AS nrOfMarks
-FROM studenti.studenti LEFT JOIN studenti.studenti_reusita 
-ON studenti.Id_Student = studenti_reusita.Id_Student
-GROUP BY studenti.Id_Student, Nume_Student, Prenume_Student
-  )
+	SELECT Nume_Student, Prenume_Student, count(studenti_reusita.Id_Student) AS nrOfMarks
+	FROM studenti.studenti LEFT JOIN studenti.studenti_reusita 
+	ON studenti.Id_Student = studenti_reusita.Id_Student
+	GROUP BY studenti.Id_Student, Nume_Student, Prenume_Student
+)
 SELECT * FROM cte2
   ```
 
@@ -119,3 +120,4 @@ SELECT DISTINCT * FROM graph ORDER BY Generation
   
    __Output:__
   ![task](/lab8/6.PNG)
+  ![task](/lab8/61.PNG)
