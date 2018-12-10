@@ -229,7 +229,7 @@ AS
 			WHERE @np = Nume_Student + ' ' + Prenume_Student)
 GO
 
-SELECT * FROM studentData('Dan David')
+SELECT * FROM studentData('Nicolescu Teodora')
   ```
   ![a](/lab9/8.PNG)
 
@@ -263,5 +263,5 @@ SELECT * FROM getWorstBestSt('CIB171', 'sarguincios')
 SELECT * FROM getWorstBestSt('CIB171', 'slab')
 
   ```
-  
+  .
     ![a](/lab9/9.PNG)
